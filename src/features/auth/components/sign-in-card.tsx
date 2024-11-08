@@ -26,7 +26,7 @@ export const SignInCard = ({ setState }: SignInCardProps) => {
 
     const handleProviderSignIn = (value: "github" | "google") => {
         signIn(value);
-    }
+    };
 
     return (
         <Card className="w-full h-full p-8">
